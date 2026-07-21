@@ -14,7 +14,6 @@ The design focuses on a cyber/holographic aesthetic with 3D effects, animated se
 - `assets/` - images, certificates, profile photos, and resume PDF.
 - `CHANGELOG.md` - project changelog.
 - `CNAME` - custom domain configuration.
-- `PARTNERS.md` - partner details (if used).
 
 ## Features
 
@@ -68,11 +67,57 @@ No build tools are required since this is a static website.
 - Optimize image file sizes for better load performance.
 - Consider simplifying heavy visual effects if a cleaner professional look is desired.
 
+## Installation & Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/Vansh-Tyagi-Portfolio.git
+   cd Vansh-Tyagi-Portfolio
+   ```
+
+2. Open in a local server (recommended):
+
+   ```bash
+   # Using Python 3
+   python -m http.server 8000
+
+   # Or using Node.js
+   npx http-server
+   ```
+
+3. Open your browser and navigate to `http://localhost:8000`
+
+## Configuration
+
+### EmailJS Setup
+
+- Sign up at [emailjs.com](https://emailjs.com/)
+- Update the EmailJS service ID, template ID, and public key in `script.js`
+- Test the contact form to ensure emails are being sent correctly
+
+### Custom Domain
+
+- Update the `CNAME` file with your custom domain
+- Configure DNS records with your domain provider
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Notes
 
 - The portfolio uses external CDN scripts, so an internet connection is required for full functionality.
 - The contact form is configured through EmailJS and will need valid EmailJS credentials to work correctly.
+- Images and assets should be optimized for web to improve page load performance.
 
 ---
 
-This README is designed to help understand the current portfolio and plan future updates clearly.
+For questions or suggestions, feel free to open an issue or contact directly via the portfolio contact form.
