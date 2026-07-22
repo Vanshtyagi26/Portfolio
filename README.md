@@ -12,8 +12,6 @@ The design focuses on a cyber/holographic aesthetic with 3D effects, animated se
 - `style.css` - project styling, visual effects, and animations.
 - `script.js` - page interactions, animation logic, and contact form handling.
 - `assets/` - images, certificates, profile photos, and resume PDF.
-- `CHANGELOG.md` - project changelog.
-- `CNAME` - custom domain configuration.
 
 ## Features
 
@@ -96,10 +94,6 @@ No build tools are required since this is a static website.
 - Update the EmailJS service ID, template ID, and public key in `script.js`
 - Test the contact form to ensure emails are being sent correctly
 
-### Custom Domain
-
-- Update the `CNAME` file with your custom domain
-- Configure DNS records with your domain provider
 
 ## Browser Support
 
